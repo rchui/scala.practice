@@ -1,0 +1,28 @@
+compile
+reload
+compile
+reload
+compile
+help
+tasks
+run test.txt
+:quit
+exit
+compile
+run
+exit
+tasks
+~run test.txt
+reload
+~run test.txt
+tasks
+help
+sbt package
+package
+run
+~run
+~run test.txt
+reload
+~run test.txt
+reload
+run in Compile <<= Defaults.runTask(fullClasspath in Compile, mainClass in (Compile, run), runner in (Compile, run)) 
