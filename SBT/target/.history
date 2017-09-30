@@ -1,0 +1,8 @@
+help
+mkdir -p src/main/scala
+project
+compile
+run
+reload
+compile
+console
