@@ -6,3 +6,6 @@ run
 reload
 compile
 console
+reload
+test
+~test

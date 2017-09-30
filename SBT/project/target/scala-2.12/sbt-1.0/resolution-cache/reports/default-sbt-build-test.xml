@@ -9,7 +9,14 @@
 		extra-sbtVersion="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20170930131301"/>
+		date="20170930134506"/>
 	<dependencies>
+		<module organisation="org.scalastyle" name="scalastyle-sbt-plugin">
+			<revision name="0.8.0" error="not found" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="default" name="sbt-build" conf="test, compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
 	</dependencies>
 </ivy-report>
